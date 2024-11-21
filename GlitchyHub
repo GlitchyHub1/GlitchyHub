@@ -109,9 +109,17 @@ local Button = MainTab:CreateButton({
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Okarun",
+   Name = "Okarun (USE SAITAMA)",
    Callback = function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/FlowersTsb/Moveset/refs/heads/main/FlowersOkarun"))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Geto (USE TATSUMAKI",
+   Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Nova2ezz/Geto-suguru/refs/heads/main/Nova2ezz"))()
    -- The function that takes place when the button is pressed
    end,
 })
