@@ -52,10 +52,10 @@ local Button = MainTab:CreateButton({
    end,
 })
 
-local TSBTab = Window:CreateTab("👊 TSB MOVESETS 👊", 4483362458) -- Title, Image
-local TSBSection = TSBTab:CreateSection("Movesets")
+local MainTab = Window:CreateTab("👊 TSB MOVESETS 👊", 4483362458) -- Title, Image
+local MainSection = MainTab:CreateSection("Movesets")
 
-local Button = TSBTab:CreateButton([
+local Button = MainTab:CreateButton([
     Name = "Deku"
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/xKextYP5"))()
