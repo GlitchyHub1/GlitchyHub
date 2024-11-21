@@ -56,7 +56,7 @@ local MainTab = Window:CreateTab("TSB", 4483362458) -- Title, Image
 local MainSection = MainTab:CreateSection("MoveSets")
 
 local Button = MainTab:CreateButton({
-   Name = "Deku",
+   Name = "Deku (USE GAROU)",
    Callback = function()
             loadstring(game:HttpGet("https://pastebin.com/raw/xKextYP5"))()
    -- The function that takes place when the button is pressed
@@ -64,7 +64,7 @@ local Button = MainTab:CreateButton({
 })
 
 local Button = MainTab:CreateButton({
-   Name = "GT-CHARA",
+   Name = "GT-CHARA (USE SAITAMA)",
    Callback = function()
             loadstring(game:HttpGet("https://paste.ee/r/0yYkO"))()
    -- The function that takes place when the button is pressed
@@ -72,7 +72,7 @@ local Button = MainTab:CreateButton({
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Flash",
+   Name = "Flash (USE METAL BAT",
    Callback = function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VOLTA.lua"))()
    -- The function that takes place when the button is pressed
@@ -80,9 +80,25 @@ local Button = MainTab:CreateButton({
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Voltra",
+   Name = "Voltra (USE SONIC)",
    Callback = function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VOLTA.lua"))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Gojo (Kade Hub) (USE SAITAMA)",
+   Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/main/Latest.lua/"))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Mahito",
+   Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidExploit/Gui/refs/heads/main/Gui"))()
    -- The function that takes place when the button is pressed
    end,
 })
