@@ -72,8 +72,9 @@ local Button = MainTab:CreateButton({
 })
 
 local Button = MainTab:CreateButton({
-        Name = "Apophenia"
-        Callback = function()
+   Name = "Flash",
+   Callback = function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua"))()
-        end,
+   -- The function that takes place when the button is pressed
+   end,
 })
