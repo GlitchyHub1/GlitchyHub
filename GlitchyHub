@@ -78,3 +78,11 @@ local Button = MainTab:CreateButton({
    -- The function that takes place when the button is pressed
    end,
 })
+
+local Button = MainTab:CreateButton({
+   Name = "Voltra",
+   Callback = function()
+            loadstring(game:HttpGet"https://raw.githubusercontent.com/Wi-sp/Limitless-legacy/refs/heads/main/GUI")()
+   -- The function that takes place when the button is pressed
+   end,
+})
