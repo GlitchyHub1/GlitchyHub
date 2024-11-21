@@ -103,7 +103,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/
 local Button = MainTab:CreateButton({
    Name = "Mahito",
    Callback = function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidExploit/Gui/refs/heads/main/Gui"))()
+            
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Mahitotsbupdate'))()
    -- The function that takes place when the button is pressed
    end,
 })
