@@ -5,7 +5,7 @@ local Window = Rayfield:CreateWindow({
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "G1itchy Hub",
    LoadingSubtitle = "by G1itched",
-   Theme = "Serenity", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+   Theme = "Dark Blue", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = false,
    DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
@@ -52,12 +52,13 @@ local Button = MainTab:CreateButton({
    end,
 })
 
-local MainTab = Window:CreateTab("👊 TSB MOVESETS 👊", 4483362458) -- Title, Image
-local MainSection = MainTab:CreateSection("Movesets")
+local MainTab = Window:CreateTab("TSB", 4483362458) -- Title, Image
+local MainSection = MainTab:CreateSection("MoveSets")
 
-local Button = MainTab:CreateButton([
-    Name = "Deku"
-    Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/xKextYP5"))()
-    end,
+local Button = MainTab:CreateButton({
+   Name = "Deku",
+   Callback = function()
+            loadstring(game:HttpGet("https://pastebin.com/raw/xKextYP5"))()
+   -- The function that takes place when the button is pressed
+   end,
 })
