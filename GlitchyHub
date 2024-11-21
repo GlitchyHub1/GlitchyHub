@@ -5,7 +5,7 @@ local Window = Rayfield:CreateWindow({
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "G1itchy Hub",
    LoadingSubtitle = "by G1itched",
-   Theme = "Dark Blue", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+   Theme = "Serenity", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = false,
    DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
@@ -50,4 +50,14 @@ local Button = MainTab:CreateButton({
             loadstring(game:HttpGet("https://raw.githubusercontent.com/kylosilly/femboyware/refs/heads/main/Fisch.lua"))()
    -- The function that takes place when the button is pressed
    end,
+})
+
+local TSBTab = Window:CreateTab("👊 TSB MOVESETS 👊", 4483362458) -- Title, Image
+local TSBSection = TSBTab:CreateSection("Movesets")
+
+local Button = TSBTab:CreateButton([
+    Name = "Deku"
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/xKextYP5"))()
+    end,
 })
