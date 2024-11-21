@@ -74,15 +74,7 @@ local Button = MainTab:CreateButton({
 local Button = MainTab:CreateButton({
    Name = "Flash",
    Callback = function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua"))()
-   -- The function that takes place when the button is pressed
-   end,
-})
-
-local Button = MainTab:CreateButton({
-   Name = "Voltra",
-   Callback = function()
-            loadstring(game:HttpGet"https://raw.githubusercontent.com/Wi-sp/Limitless-legacy/refs/heads/main/GUI")()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VOLTA.lua"))()
    -- The function that takes place when the button is pressed
    end,
 })
