@@ -90,7 +90,12 @@ local Button = MainTab:CreateButton({
 local Button = MainTab:CreateButton({
    Name = "Gojo (Kade Hub) (USE SAITAMA)",
    Callback = function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/main/Latest.lua/"))()
+            
+_G.settings = {
+    ["RedStartupId"] = "rbxassetid://1177475221",
+    ["RedHitId"] = "rbxassetid://8625377966",
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/main/Latest.lua"))()
    -- The function that takes place when the button is pressed
    end,
 })
